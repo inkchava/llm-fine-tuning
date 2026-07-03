@@ -41,13 +41,17 @@ The primary objective was to improve performance on domain-specific machine lear
 └── README.md
 ```
 
+## Results
+
+* Fine-tuned Qwen2.5-0.5B using supervised instruction tuning
+* Built an end-to-end training and inference pipeline
+* Benchmarked model performance before and after fine-tuning
+* Generated predictions on a held-out evaluation dataset
+
+  
 ## Future Improvements
 
 * Compare supervised fine-tuning with parameter-efficient methods such as LoRA.
 * Evaluate catastrophic forgetting using broader benchmark datasets.
 * Experiment with prompt engineering and inference-time decoding strategies.
 * Expand evaluation beyond accuracy to include robustness and generalization.
-
-## Acknowledgements
-
-This project was completed as part of UC Berkeley coursework and extends a provided instructional framework through model training, evaluation, and experimentation.
